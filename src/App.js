@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import reactDom from 'react-dom';
-import { react } from '@babel/types';
+import ClassForm from './ClassForm';
 
-
-
-const App = () => {
-  return <h1>Codetrain is awesome, react works!!!!</h1>
-
+function App() {
+  return (
+    <div className="App">
+      <ClassForm/>
+    </div>
+  );
 }
 
 export default App;
